@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Cards from './Scard';
 import './index.css';
+import './media.css';
 import Sdata from './Sdata';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
