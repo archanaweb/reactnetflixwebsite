@@ -36,6 +36,13 @@ const Sdata = [
         sname: "Better Together",
         link: "https://www.netflix.com/in/title/80100172"
     },
+
+    {
+        imgsrc: "https://www.nme.com/wp-content/uploads/2022/05/Stranger_Things_Cast.jpg",
+        title: "A Netflix Original Series",
+        sname: "Nothing Impossible",
+        link: "https://www.netflix.com/in/title/80100172"
+    },
 ]
 
 export default Sdata;
