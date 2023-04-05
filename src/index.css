@@ -39,6 +39,7 @@ code {
 .card{
   background-color: #fff;
   border-radius: 8px;
+  height: 100%;
 }
 .card img {
   width: 100%;
@@ -70,3 +71,5 @@ code {
     color: #525252;
     text-decoration: none;
 }
+
+.card_style {display: flex; flex-wrap: wrap; justify-content: center;}

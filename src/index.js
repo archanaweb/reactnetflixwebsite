@@ -12,16 +12,17 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  <>
   <h1 className='heading_style'>List of top 5 Netflix Series in 2020</h1>
-
-{Sdata.map((val) =>{
+  <div className='card_style'>
+{Sdata.map((val, i) =>{
   return(
-    <Cards imgsrc={val.imgsrc} 
+    <Cards key={i} imgsrc={val.imgsrc} 
     title={val.title}
     sname={val.sname} />
     );
 
 })
 }
+</div>
  </>
 );
 
